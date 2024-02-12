@@ -1,5 +1,15 @@
+import HeaderButton from './components/headerbutton/HeaderButton';
+import HeaderText from './components/headertext/HeaderText';
+
 const App = () => {
-	return <h1>Núcleo de la aplicación</h1>;
+	return (
+		<>
+			<header>
+				<HeaderText />
+				<HeaderButton />
+			</header>
+		</>
+	);
 };
 
 export default App;
